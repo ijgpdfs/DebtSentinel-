@@ -1,0 +1,53 @@
+<!-- File: contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact DebtSentinel – Get in touch with our team." />
+  <title>Contact Us – DebtSentinel</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-900">
+  <header class="bg-gray-50 border-b">
+    <div class="max-w-7xl mx-auto px-4 py-6">
+      <a href="index.html" class="text-2xl font-bold text-indigo-600">DebtSentinel</a>
+    </div>
+  </header>
+
+  <main class="max-w-3xl mx-auto px-4 py-12">
+    <h1 class="text-3xl font-bold mb-6">Contact Us</h1>
+    
+    <p class="mb-6">Have questions, feedback, or media inquiries? We’re happy to hear from you. Fill out the form below or email us directly.</p>
+
+    <form class="space-y-6">
+      <div>
+        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+        <input type="text" id="name" name="name" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" required>
+      </div>
+
+      <div>
+        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+        <input type="email" id="email" name="email" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" required>
+      </div>
+
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+        <textarea id="message" name="message" rows="5" class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500" required></textarea>
+      </div>
+
+      <button type="submit" class="bg-indigo-600 text-white px-6 py-2 rounded hover:bg-indigo-700">Send Message</button>
+    </form>
+
+    <p class="mt-8 text-sm text-gray-500">Or email us directly at <a href="mailto:team@debtsentinel.com" class="text-indigo-600 hover:underline">team@debtsentinel.com</a></p>
+
+    <nav class="mt-12 text-sm">
+      <a href="index.html" class="text-gray-600 hover:underline">← Back to Home</a>
+    </nav>
+  </main>
+
+  <footer class="bg-gray-50 border-t mt-12 py-6 text-center text-sm text-gray-500">
+    <p>&copy; 2025 DebtSentinel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
